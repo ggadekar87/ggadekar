@@ -1,18 +1,18 @@
 import { NavLink, Link } from "react-router";
+import "./header.css"
+import NavigationItem from "./navigationItem/navigationItem";
+
 const Header = () => {
   return (
-    <div>
-      <nav>
-        <NavLink
-          to="/"
-          className={({ isActive }) => (isActive ? "active" : "")}
-        >
+    <header className="Toolbar">
+      <ul className="NavigationItems">
+        <NavigationItem link="/" exact>
           Home
-        </NavLink>
-
-        <Link to="/contact">Concerts</Link>
-      </nav>
-    </div>
+        </NavigationItem>
+        <NavigationItem link="/contact">Contact</NavigationItem>
+        <NavigationItem link="/contacts">About us</NavigationItem>
+      </ul>
+    </header>
   );
 };
 

@@ -1,10 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Layout from "./components/layout/layout";
+
+import { Route, Routes } from "react-router";
+import Home from "./components/home/home";
+import Contact from "./components/contact/contact"
 function App() {
+  let routes = (
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="contact" element={<Contact />} />
+    </Routes>
+  );
   return (
     <div className="App">
-      <Layout></Layout>
+      <Layout> {routes} </Layout>
     </div>
   );
 }

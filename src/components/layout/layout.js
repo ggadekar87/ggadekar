@@ -1,16 +1,20 @@
 import Header from "../header/header";
-import { Route, Routes } from "react-router";
-import Home from "../home/home";
-import Contact from "../contact/contact";
-const Layout = () => {
+import './layout.css'
+const Layout = (props) => {
   return (
-    <div>
-      <Header></Header>
-      <Routes>
-        <Route index element={<Home />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
-    </div>
+    <>
+      <div className="layout">
+        <div>
+          <Header></Header>
+        </div>
+        <div>
+          <main className="Content">{props.children}</main>
+        </div>
+        <footer>
+          footer
+        </footer>
+      </div>
+    </>
   );
 };
 
