@@ -12,6 +12,8 @@ footer {
   height: 20px;
   text-wrap: inherit;
   margin-top: auto;
+  font-size: 12px;
+  padding-top: 5px;
 }
 
 .Content {

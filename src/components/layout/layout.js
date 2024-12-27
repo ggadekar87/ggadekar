@@ -11,7 +11,7 @@ const Layout = (props) => {
           <main className="Content">{props.children}</main>
         </div>
         <footer>
-          footer
+          India: +91 7709558425, UAE: + 971 561580253, Email: ggadekar87@gmail.com
         </footer>
       </div>
     </>
