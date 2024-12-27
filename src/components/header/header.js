@@ -10,7 +10,7 @@ const Header = () => {
           Home
         </NavigationItem>
         <NavigationItem link="/contact">Contact</NavigationItem>
-        <NavigationItem link="/contacts">About us</NavigationItem>
+        <NavigationItem link="/aboutme">About me</NavigationItem>
       </ul>
     </header>
   );
