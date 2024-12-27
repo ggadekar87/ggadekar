@@ -1,5 +1,7 @@
 import "./home.css";
 import pic from "../images/DSC_1983.JPG"
+import EmailSharpIcon from '@mui/icons-material/EmailSharp';
+import PhoneInTalkSharpIcon from '@mui/icons-material/PhoneInTalkSharp';
 const Home = () => {
   return (
     <div className="Home">
@@ -20,8 +22,13 @@ const Home = () => {
                 <br></br>
                 <div className="sideBarContent">
                   <ul>
-                    <li>gg@gmail.com</li>
-                    <li>+97156159253</li>
+                    <li style={{ fontSize: "11px", fontWeight: "bold" }}>
+                      <EmailSharpIcon style={{ height: "11px", width: "11px" }}></EmailSharpIcon>
+                      ggadekar87@gmail.com
+                    </li>
+                    <li style={{ fontSize: "11px", fontWeight: "bold" }}>
+                      <PhoneInTalkSharpIcon style={{ height: "11px", width: "11px" }}></PhoneInTalkSharpIcon> +97156159253
+                    </li>
                   </ul><hr></hr>
                 </div>
               </td>
@@ -86,7 +93,7 @@ const Home = () => {
           <table className="tableContent">
             <tr>
               <td>
-                <div className="nameCss">Ganesh Gadekar</div>
+                <div className="nameCss">GANESH GADEKAR</div>
               </td>
             </tr>
             <tr>
@@ -167,12 +174,18 @@ const Home = () => {
                     <li>Project: Application tracing system is a web application used to handle recruitment needs</li>
                   </ul>
                 </p>
+                <div className="DateRange">Thanks</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <hr className="horizontalBar"></hr>
               </td>
             </tr>
           </table>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 

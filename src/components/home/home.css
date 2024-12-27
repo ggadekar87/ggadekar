@@ -2,7 +2,6 @@
   width: 100%;
   margin: 0 auto;
 }
-
 .Heading2 {
   font-weight: bold;
   float: left;
@@ -32,11 +31,25 @@
   font-size: 13px;
 }
 .ProfilePic {
-  width: 100%;
+  width: 90%;
   height: 120px;
   border-radius: 10px;
   border: 2px solid rgb(244, 242, 242);
-  padding: 2px;
+  padding: 3%;
+  box-shadow: 5px 5px 5px rgb(117, 190, 236) inset;
+  transform: rotateY(180deg);
+  cursor: pointer;
+  /*transition: transform 0.7s;*/
+}
+.ProfilePic:hover {
+  z-index: 1;
+  position: absolute;
+  /*transform: rotateY(4deg);
+  transform: scale(2.5);*/
+  width: 20%;
+  height: 30%;
+  padding: 10px;
+  box-shadow: 15px 15px 15px rgb(117, 190, 236) inset;
 }
 .Heading {
   color: white;
@@ -59,21 +72,26 @@
   width: 70%;
   margin-left: 16%;
 }
-
 .tabSideBar > tr > td {
   margin: 0 auto;
   width: 100%;
   font-size: 13px;
 }
-
 .nameCss {
   font-weight: bold;
-  font-size: large;
-  color: rgb(12, 12, 80);
+  font-size: 24px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  color: #485653;
   margin-left: 2%;
   padding: 3px;
+  text-shadow: 1px 1px 2px rgb(12, 12, 80);
+  cursor: grab;
 }
-
+.nameCss:hover {
+  transform: rotateY(10deg);
+  transform: rotateX(10deg);
+}
 .horizontalBar {
   height: 4px;
   background-color: #0e6655;
@@ -83,7 +101,6 @@
   width: 100%;
   border: 1px solid rgb(227, 224, 224);
 }
-
 .tableContent > tr > td {
   width: 100%;
 }
@@ -97,7 +114,8 @@
   background-color: white;
 }
 .row {
-  background-color: #0e6655;
+  box-shadow: 4px 4px rgb(217, 240, 247);
+  background-color: #485653;
   width: 70%;
   margin: 0 auto;
   border-top: 5px solid brown;
@@ -108,10 +126,19 @@
   display: table;
   clear: both;
 }
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .column1 {
     width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+  .ProfilePic {
+    width: 30px;
+    height: 30px;
+  }
+  .ProfilePic:hover {
+    box-shadow: 15px 15px 15px rgb(117, 190, 236) inset;
   }
 }
