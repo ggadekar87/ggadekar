@@ -10,6 +10,7 @@ function App() {
   let routes = (
     <Routes>
       <Route index element={<Home />} />
+      <Route path="ggadekar" element={<Home />} />
       <Route path="contact" element={<Contact />} />
       <Route path="aboutme" element={<About />} />
     </Routes>
