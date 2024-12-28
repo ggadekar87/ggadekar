@@ -43,3 +43,8 @@ button {
 button:hover {
   background-color: #218838;
 }
+@media screen and (max-width: 600px) {
+  .email-form {
+    max-width: 100%;
+  }
+}
