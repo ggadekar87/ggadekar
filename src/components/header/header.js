@@ -15,8 +15,8 @@ const Header = () => {
       <NavigationItem link="/" close={closeNav} exact>
         <HomeIcon color="primary" />
       </NavigationItem>
-      <NavigationItem link="/contact" close={closeNav}>Contact</NavigationItem>
       <NavigationItem link="/aboutme" close={closeNav}>About me</NavigationItem>
+      <NavigationItem link="/contact" close={closeNav}>Contact</NavigationItem>
     </ul>
   );
 
