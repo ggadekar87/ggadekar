@@ -12,10 +12,11 @@ const Email = () => {
             }, (error) => {
                 console.log(error.text);
             });
+        document.getElementById("myForm").reset();
     };
 
     return <div className="Email">
-        <form className="email-form" ref={form} onSubmit={sendEmail}>
+        <form id="myForm" className="email-form" ref={form} onSubmit={sendEmail}>
             <div className="form-group">
                 <label>Name</label>
                 <input type="text" name="from_name" />
