@@ -135,10 +135,22 @@
     width: 100%;
   }
   .ProfilePic {
-    width: 30px;
-    height: 30px;
+    width: 100%;
   }
   .ProfilePic:hover {
     box-shadow: 15px 15px 15px rgb(117, 190, 236) inset;
+  }
+  .tabSideBar {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ProfilePic {
+    width: unset;
+  }
+  .tabSideBar {
+    margin-left: unset;
   }
 }
