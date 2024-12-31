@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
     </div>
     <div className='co-column2'>
-      <Email></Email>
+      <Email data-testid="email-test"></Email>
     </div>
   </div>;
 };
