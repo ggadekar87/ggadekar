@@ -39,17 +39,24 @@
   box-shadow: 5px 5px 5px rgb(117, 190, 236) inset;
   transform: rotateY(180deg);
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+
   /*transition: transform 0.7s;*/
 }
+.styled-image:hover {
+  transform: scale(1.05);
+}
+
 .ProfilePic:hover {
-  z-index: 1;
-  position: absolute;
+  transform: scale(1.05);
   /*transform: rotateY(4deg);
-  transform: scale(2.5);*/
+  transform: scale(2.5);
+   z-index: 1;
+    position: absolute;
   width: 20%;
   height: 30%;
   padding: 10px;
-  box-shadow: 15px 15px 15px rgb(117, 190, 236) inset;
+  box-shadow: 15px 15px 15px rgb(117, 190, 236) inset;*/
 }
 .Heading {
   color: white;
@@ -143,6 +150,9 @@
   .tabSideBar {
     margin: 0 auto;
     width: 100%;
+  }
+  .row {
+    width: 95%;
   }
 }
 

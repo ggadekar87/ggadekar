@@ -1,7 +1,10 @@
 .App {
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 @media (prefers-reduced-motion: no-preference) {
 }
-
