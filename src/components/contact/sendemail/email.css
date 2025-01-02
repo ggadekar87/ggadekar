@@ -1,12 +1,10 @@
 .Email {
+  width: 100%;
 }
 .email-form {
-  max-width: 500px;
+  width: 80%;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f9f9f9;
 }
 
 .form-group {
@@ -21,9 +19,7 @@
 .form-group input,
 .form-group textarea {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 10px 0px 10px 0px;
 }
 
 .form-group textarea {
