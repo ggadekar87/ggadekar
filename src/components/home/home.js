@@ -27,7 +27,7 @@ const Home = () => {
                       ggadekar87@gmail.com
                     </li>
                     <li style={{ fontSize: "11px", fontWeight: "bold" }}>
-                      <PhoneInTalkSharpIcon style={{ height: "11px", width: "11px" }}></PhoneInTalkSharpIcon> +97156159253
+                      <PhoneInTalkSharpIcon style={{ height: "11px", width: "11px" }}></PhoneInTalkSharpIcon> +971 561580253
                     </li>
                   </ul><hr></hr>
                 </div>

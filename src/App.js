@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Layout from "./components/layout/layout";
-
 import { Route, Routes } from "react-router";
 import Home from "./components/home/home";
 import Contact from "./components/contact/contact"

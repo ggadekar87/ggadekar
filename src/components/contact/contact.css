@@ -1,36 +1,30 @@
 .Contact {
   width: 100%;
   margin: 0 auto;
-  background-color: rgb(217, 218, 219);
   display: inline-flex;
+  align-items: center;
   margin-top: 3%;
 }
-.co-column1 {
+.Contact-col-1 {
   width: 50%;
-  height: auto;
-  float: left;
-}
-.co-column2 {
-  width: 50%;
-  float: left;
-}
-.co-contact {
-  max-width: 500px;
   margin: 0 auto;
-  height: 100%;
-  padding: 20px;
-  margin-right: 0px;
-  text-align: justify;
 }
-.h3CSS {
-  font-weight: bold;
-  font-size: 20px;
+.Contact-col-2 {
+  width: 50%;
+  margin: 0 auto;
+}
+.Contact-col-1-data {
+  width: 80%;
+  margin: 0 auto;
+}
+.ContactCard {
+  margin-bottom: 13px;
 }
 @media screen and (max-width: 600px) {
-  .co-column1 {
+  .Contact-col-1 {
     width: 100%;
   }
-  .co-column2 {
+  .Contact-col-2 {
     width: 100%;
   }
   .Contact {
